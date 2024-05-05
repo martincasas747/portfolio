@@ -21,8 +21,16 @@ background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-2
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
 
+<ul class="menu">
+    <li> <a href="#">sobre mi</a></li>
+    <li> <a href="#">proyectos</a> </li>
+    <li> <a href="#">conocimientos</a> </li>
+    <li> <a href="#">redes</a> </li>
+ 
 
-    
+</ul>
+
+
      
     <style>
      
@@ -79,10 +87,33 @@ box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
         background-color: transparent;
         color: white;
     }
+
+    .menu{
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+
+}
+.menu li a{
+    text-decoration: none;
+    color:violet;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color:grey;
+}
+    
     
 
 </style>
-    <h1 style="color:blueviolet; text-decoration:underline;text-decoration-style: double;text-align:center; "></style> PORTFOLIO </h1>
     
     <div id="espacio"></div>
     <div class="div1">
@@ -159,7 +190,7 @@ box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
         <div>
         
 
-
+      
         <div style="text-align:end;color:white;padding: 200px;padding-left:210px;" class="div4">
             <table>
                 <tr>
@@ -167,8 +198,8 @@ box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
           
        <td>
               
-        <label style="padding: 10px;"for="">Nombre</label>
-        <input style="width: 300px;background-color: #892be231;" type=" text">
+        <label style="padding: 10px; text-decoration: none;"for="">Nombre</label>
+        <input style="width: 300px;background-color: transparent;border-color: aqua; border-style:double;" type=" text">
         </td>
         </div>
         </tr>
@@ -176,7 +207,7 @@ box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
         <div> 
             <td>
             <label style="padding: 10px;"for="">Email</label>
-            <input style="width: 300px;background-color: #892be231; "type="email">
+            <input style="width: 300px;background-color: transparent;border-color: aqua; border-style:double;"type="email">
             </td>
         </div>
     </tr>
@@ -185,7 +216,7 @@ box-sizing: border-box;margin: auto;width: 100%;max-width: 1000px;">
         <div>  
         <td>
             <label  style="padding: 10px;"for="">Ingrese un mensaje</label>
-            <input style="height: 200px;width: 300px;background-color: #892be231;" type="text">
+            <input style="height: 200px;width: 300px;background-color: transparent;border-color: aqua;border-style:double;" type="text">
        </td>
 
 
